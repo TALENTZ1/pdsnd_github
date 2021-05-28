@@ -11,6 +11,7 @@ Project analyses the bikeshare data and provides key statistics based on user in
 washington.csv
 chicago.csv
 new_york_city.csv
+bikeshare.py
 
 ### Credits
 Sources: https://knowledge.udacity.com/?nanodegree=nd104-ent&page=1&project=328&rubric=1379

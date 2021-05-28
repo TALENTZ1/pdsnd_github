@@ -94,8 +94,8 @@ def time_stats(df, month, day):
     start_time = time.time()
     
     # Display the most common month
-    popular_month = df['month'].mode()[0]
-    popular_month_name = calendar.month_name[popular_month]    
+    popular_month_number = df['month'].mode()[0]
+    popular_month_name = calendar.month_name[popular_month_number]    
     if month == 'all':
         print('Most common month:', popular_month_name.title())
     else:

@@ -3,9 +3,11 @@ import calendar
 import pandas as pd
 import numpy as np
 
+# Data files required for project 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+			  
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.

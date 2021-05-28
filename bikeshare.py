@@ -208,13 +208,13 @@ def main():
         i = 0
         
         # User input for displaying rows
-        raw = input("Would you like to see the first 5 rows of raw data? Type 'yes' or 'no'.\n").lower()
+        raw = input("Would you like to see the first 20 rows of raw data? Type 'yes' or 'no'.\n").lower()
         pd.set_option('display.max_columns', 200)
         while True:
           if raw == 'no':
             break
-          print(df[i:i+5])
-          raw = input("Would you like to see the next 5 rows of raw data?\n").lower()
+          print(df[i:i+21])
+          raw = input("Would you like to see the next 20 rows of raw data?\n").lower()
           i +=5
           
         # User input for restart          
